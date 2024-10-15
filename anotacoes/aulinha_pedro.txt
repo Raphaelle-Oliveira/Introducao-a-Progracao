@@ -1,0 +1,10 @@
+int -> inteiros
+float -> ponto flutuante -> numeros decimais
+double -> ponto flutuante -> numeros decimais (mais casas decimais)
+char -> caracter -> 'a', 'b', '1'
+long int -> inteiro (maior que int) 
+long double -> ponto flutuante (maior que double)
+
+
+TIPO - 
+ = VALOR;

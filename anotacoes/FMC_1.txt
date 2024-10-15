@@ -1,0 +1,61 @@
+Direta 
+p->q
+
+Contra-exemplo
+Definição: contraexemplo é uma maneira de refutar uma afirmação do tipo “Se A, então
+B”. É uma instância em que A é verdadeira, mas B é falsa
+
+exemplo=
+Considere a afirmação: “Se x é primo, então x é ímpar”.
+Contraexemplo:
+Tome x = 2. O número 2 é um inteiro que é primo, mas não é ímpar.
+
+OBS= Veja que é necessário exibir apenas um valor que torne a conclusão falsa, para
+mostrar que a implicação toda é falsa.
+
+Contradição ou absurdo
+Suponha que a sentença 'p' é verdadeira e que a sentença 'q' é falsa. Depois de
+efetuar uma sequência de implicações lógicas chega-se a uma afirmação e sua
+negação, o que chamamos de contradição. Isto mostra que a afirmação p ∧ ¬q é
+falsa, ou seja, que ¬q → ¬p é verdadeira.
+
+exemplos=
+Concluir que um número x é par e ímpar ao mesmo tempo.
+Concluir que um número inteiro a é racional.
+Encontrar que um número primo p tem divisores diferentes de 1 e p.
+
+demonstração por absurdo:
+
+exemplo=
+O produto de inteiros ímpares é ímpar.
+
+Demonstração=
+Reformulação: Se x e y são inteiros ímpares, então x · y é ímpar.
+
+Sejam x e y inteiros ímpares e suponha, por contradição, que x · y é par.
+
+Pela definição de ímpar, temos que existem inteiros c e d tais que x = 2c + 1 e
+y = 2d + 1. Multiplicando x e y obtemos (2c + 1)(2d + 1) = 4cd + 2c + 2d + 1 = 2(2cd + c + d) + 1.
+Como 2cd + c + d é inteiro, concluímos que x · y não é divisível por 2.
+Isso é uma contradição, pois supomos no início que x · y era par.
+
+Contrapositiva/Contraposição
+Exemplo=
+Sejam x e y inteiros. Se x · y é ímpar, então x e y são ímpares.
+Demonstração
+Suponha que x ou y é par. Queremos mostrar que x · y é par.
+
+Demonstração por Contrapositiva:
+Dividimos a prova em duas argumentações: caso ambos sejam pares ou não.
+(I) Se ambos forem pares, pela definição, existem um inteiros c e d tais que
+x = 2c e y = 2d. Substituindo, obtemos x · y = 2c · 2d = 4cd = 2(2cd).
+(II) Se um deles for ímpar, podemos considerar sem perda de generalidade, x, pela
+definição, existem um inteiros c e d tais que x = 2c + 1 e y = 2d.
+
+Substituindo, obtemos x · y = (2c + 1)2d = 4cd + 2d = 2(2cd + d).
+Nos dois casos, temos que x · y é par.
+
+Portanto, podemos concluir que se x· é ímpar, então x e y são ímpares.
+
+
+

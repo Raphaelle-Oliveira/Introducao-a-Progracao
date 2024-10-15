@@ -1,0 +1,6 @@
+Membros:
+Raphaelle Silva de Oliveira
+Gabriel Santos Angelin
+
+linha de compilação:
+gcc trb2.c -o trb2
